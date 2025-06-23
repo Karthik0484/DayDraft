@@ -81,7 +81,7 @@ const DashboardStats = ({ tasks, files, links, spendingLogs = [] }: DashboardSta
     },
     {
       name: 'Today\'s Spending',
-      value: `$${todaySpending.toFixed(2)}`,
+      value: `Rs ${todaySpending.toFixed(2)}`,
       icon: DollarSign,
       color: 'text-green-600',
       bgColor: 'bg-green-50',
