@@ -83,7 +83,7 @@ const SpendingAnalytics = () => {
           <div className="flex items-center justify-between">
             <div>
               <p className="text-sm font-medium text-gray-600">Today</p>
-              <p className="text-2xl font-bold text-gray-900">₹{todayTotal.toFixed(2)}</p>
+              <p className="text-2xl font-bold text-gray-900">₹ {todayTotal.toFixed(2)}</p>
             </div>
             <IndianRupee className="h-8 w-8 text-green-600" />
           </div>
@@ -93,7 +93,7 @@ const SpendingAnalytics = () => {
           <div className="flex items-center justify-between">
             <div>
               <p className="text-sm font-medium text-gray-600">This Week</p>
-              <p className="text-2xl font-bold text-gray-900">₹{weekTotal.toFixed(2)}</p>
+              <p className="text-2xl font-bold text-gray-900">₹ {weekTotal.toFixed(2)}</p>
             </div>
             <Calendar className="h-8 w-8 text-blue-600" />
           </div>
@@ -103,7 +103,7 @@ const SpendingAnalytics = () => {
           <div className="flex items-center justify-between">
             <div>
               <p className="text-sm font-medium text-gray-600">This Month</p>
-              <p className="text-2xl font-bold text-gray-900">₹{monthTotal.toFixed(2)}</p>
+              <p className="text-2xl font-bold text-gray-900">₹ {monthTotal.toFixed(2)}</p>
             </div>
             <TrendingUp className="h-8 w-8 text-purple-600" />
           </div>
